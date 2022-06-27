@@ -1,0 +1,189 @@
+body{
+    font-family: "Montserrat";
+}
+h1 {  
+    font-family: 'Days One', sans-serif; 
+    font-size: 10px; 
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10%;
+    line-height: 5rem;
+}
+h3{
+    font-family: "Montserrat-bold";
+    
+}
+p{
+    color: #8f8f8f;
+    font-size: larger;
+}
+
+
+.feature-box{
+    background-color: #fff;
+}
+
+
+/*..for brand logo..*/
+
+.navbar{
+    padding-bottom: 6.5rem;
+}
+
+.navbar-brand
+{
+    font-family: "Ubuntu";
+    font-size: 10rem;
+    
+}
+.nav-item{
+    padding: 0px 10px;
+}
+.nav-link{
+    font-size: 4rem;
+    font-family: "Montserrar-thin";
+
+}
+
+
+.download-btn{
+    margin: 5% 3% 5% 0%;
+}
+
+
+.icon{
+    color: #748DA6 ;
+    margin-bottom: 20px;
+}
+
+
+
+.img-r{
+    width: 13%;
+    transform: rotate(20deg);
+    position:absolute;
+     
+    
+}
+
+@media (max-width: 1000px){
+    #title{
+        text-align: center;
+        font-weight: 800;
+    }
+    .img-r{
+        position: static;
+        transform: rotate(0);
+        
+        width: 25%;
+    }
+}
+.feature-box{
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+#features{
+    background-color: #fff;
+    padding: 7% 15%;
+    position: relative;
+   z-index: 1;
+}
+
+
+
+
+
+#title{
+    background-color: #748DA6;
+    color: #fff;
+   padding: 9%;
+
+}
+/*  testimonial section */
+
+#testimonials{
+   
+    text-align: center;
+    background-color: #748DA6;
+    color: #fff;
+}
+.crousel-item{
+    padding: 10% 15%;
+}
+
+.testimonial-image{
+    border-radius: 100%;
+    width: 15%;
+    height: 15%;
+    margin: 10px;
+}
+
+#press{
+
+    background-color: #748DA6;
+    text-align: center;
+    padding: 3%;
+}
+.press-logo
+{
+    margin: 20px 20px 50px;
+}
+#carouselExampleControls{
+    padding: 35px;
+}
+.testimonial-image2{
+    height: 15%;
+    width: 11.2%;
+    border-radius: 100%;
+}
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+#cat{
+    background-color: #748DA6;
+    text-align: center;
+}
+
+.action-heading{
+    font-family: 'Days One', sans-serif;
+    color: #fff;
+    line-height: 1.5rem;
+    padding: 4%;
+   font-weight: 900;
+}
+.bottom-part{
+    padding: 8%;
+}
+.footer-btn{
+    padding: 30px;
+}
+#footer{
+    text-align: center;
+    padding: 30px;
+}
+.fa-brands{
+    padding: 10px;
+}
+#carouselExampleControls{
+    padding: 50px;
+    text-align: center;
+}
+#press{
+    padding: 8%;
+}
+.cat-image{
+    border-radius: 100%;
+    width: 20%;
+    height: 30%;
+    padding: 20px;
+    border-color: #fff;
+}
